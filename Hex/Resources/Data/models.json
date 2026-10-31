@@ -16,6 +16,14 @@
     "storageSize": "650MB"
   },
   {
+    "displayName": "Haas ja v1.0",
+    "internalName": "Haas-ja-v1.0-coreml",
+    "size": "Japanese",
+    "accuracyStars": 5,
+    "speedStars": 4,
+    "storageSize": "1.3GB"
+  },
+  {
     "displayName": "Whisper Tiny",
     "internalName": "openai_whisper-tiny",
     "size": "Multilingual",

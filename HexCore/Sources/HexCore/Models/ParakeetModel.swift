@@ -4,6 +4,8 @@ import Foundation
 public enum ParakeetModel: String, CaseIterable, Sendable {
 	case englishV2 = "parakeet-tdt-0.6b-v2-coreml"
 	case multilingualV3 = "parakeet-tdt-0.6b-v3-coreml"
+	/// Haas-ja-v1.0 (Third Intelligence), converted to Core ML. Japanese only.
+	case japaneseHaas = "Haas-ja-v1.0-coreml"
 
 	/// The identifier used throughout the app (matches the on-disk folder name).
 	public var identifier: String { rawValue }

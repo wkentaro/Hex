@@ -42,6 +42,8 @@ public struct CuratedModelInfo: Equatable, Identifiable, Codable {
 			return "BEST FOR ENGLISH"
 		case .multilingualV3:
 			return "BEST FOR MULTILINGUAL"
+		case .japaneseHaas:
+			return "JAPANESE"
 		case nil:
 			return nil
 		}
